@@ -1,1 +1,6 @@
-# Gestionare-date-
+         Proiectul urmărește verificarea și validarea datelor cursanților TelecomAcademy și stocarea lor într-un fișier .txt după asigurarea corectitudinii acestora.
+Pentru a realiza o interfață prietenoasă cu utilizatorii a fost implementat un meniu cu 4 opțiuni  : 1)  Adauga cursant, 2) Afiseaza lista cursantilor, 3) Salvează cursanții în fisier , insotite de cazul 0) Iesire. Aceasta abordare facilitează interacțiunea utilizatorului cu programul.
+   Funcționalitatea proiectului constă în verificarea acurateții datelor introduse de utilizator, astfel datele introduse trecând prin mai multe etape de verificare în funcție de tipul lor după cum urmează: 
+ 	Prima etapă de verificare se realizează în câmpurile de “Prenume” și ”Nume” și urmărește ca numele și prenumele utilizatorului să conțină exclusiv litere(fara cifre sau caractere speciale) . În cazul în care acest lucru nu este îndeplinit, în consolă se va afișa mesajul  “Invalid: cifra /caracter special introdus”, iar utilizatorul va putea sa reintroduca datele.
+ 	A doua etapa de verificare este reprezentata de valabilitatea CNP-ului, iar pentru aceasta s-au preluat criteriile de verificare a codului numeric personal de la nivelul statului român. 
+   Dacă toate aceste criterii sunt îndeplinite, utilizatorul are posibilitatea de a introduce alte seturi de date pentru alți cursanți, iar mai apoi de a le salva și stoca într-un fișier .txt denumit cursanți.txt.
